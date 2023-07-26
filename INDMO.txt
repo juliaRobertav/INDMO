@@ -12,7 +12,10 @@ Comandos:
 
 *-verificar variáveis de ambiente
 
--npm install -g expo-cli
+*-npm install -g expo-cli
+
+->Documents:
+-npx create-expo-app Projeto1 (criação do projeto)
 
 
 *oque é variável de ambiente:
@@ -23,3 +26,5 @@ para um valor que neste caso está disponível no ambiente de execução
 Na maioria dos casos, precisamos adicionar valores a essas variáveis 
 para que alguns programas consigam encontrar 
 o que precisam para executar corretamente.
+
+*expo é o simulador do aplicativo
