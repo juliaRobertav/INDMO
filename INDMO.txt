@@ -12,6 +12,7 @@ Comandos:
 
 *-verificar variáveis de ambiente
 
+-npm install -g expo-cli
 
 
 *oque é variável de ambiente:
