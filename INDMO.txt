@@ -1,0 +1,24 @@
+Node JS
+
+Comandos:
+
+-npm
+
+-npm install -g npm (-g = Global -> p/todos usuários)
+
+-npm install -g yarn
+
+-Windows+R -> %appdata% (pasta temporária onde instala as coisas)
+
+*-verificar variáveis de ambiente
+
+
+
+*oque é variável de ambiente:
+Uma variável de ambiente é um "atalho" 
+para um valor que neste caso está disponível no ambiente de execução 
+(neste caso no sistema operacional inteiro).
+
+Na maioria dos casos, precisamos adicionar valores a essas variáveis 
+para que alguns programas consigam encontrar 
+o que precisam para executar corretamente.
