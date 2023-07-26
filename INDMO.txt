@@ -16,6 +16,11 @@ Comandos:
 
 ->Documents:
 -npx create-expo-app Projeto1 (criação do projeto)
+-cd NomeProjeto
+
+-code . (abre o vscode ja nesse projeto criado)
+
+-npx expo start ->w
 
 
 *oque é variável de ambiente:
