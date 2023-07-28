@@ -12,9 +12,11 @@ Comandos:
 
 *-verificar variáveis de ambiente
 
+- copie o endereço da pasta npm e colo
+no path das variáveis de ambiente.
+
 *-npm install -g expo-cli
 
-->Documents:
 -npx create-expo-app Projeto1 (criação do projeto)
 -cd NomeProjeto
 
