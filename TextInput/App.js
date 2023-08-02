@@ -1,5 +1,5 @@
 import React, {useState} from "react";
-import { View, TextInput, StyleSheet, Button } from "react-native";
+import { View, TextInput, StyleSheet, Button, Image } from "react-native";
 
 export default function App(){
   const [nome, setNome] = useState()
@@ -29,6 +29,7 @@ export default function App(){
          color= '#d62598'
          onPress = {()=>{ console.log(`O nome é ${nome} e a idade é ${idade}`)}}
         />
+        <Image source={require("./assets/img1.jfif")} style={{width:200, height:200}}/>
 
       </View>
 
