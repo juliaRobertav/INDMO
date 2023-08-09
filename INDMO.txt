@@ -1,0 +1,46 @@
+Node JS
+
+Comandos:
+
+-npm
+
+-npm install -g npm (-g = Global -> p/todos usuários)
+
+-npm install -g yarn
+
+-Windows+R -> %appdata% (pasta temporária onde instala as coisas)
+-> copie o caminho do npm
+
+*-verificar variáveis de ambiente
+-> Para exibir ou alterar variáveis de ambiente:
+ Clique com o botão direito do mouse em Meu Computador e clique em Propriedades. 
+Clique na guia Avançado. Clique em Variáveis de ambiente. 
+Ou pesquisar editar variaveis de ambiente no menu.
+
+-> va em path e cole o caminho da pasta npm do appdata
+
+*-npm install -g expo-cli
+
+*
+
+->Documents:
+-npx create-expo-app Projeto1 (criação do projeto)
+-cd NomeProjeto
+
+-yarn
+
+-code . (abre o vscode ja nesse projeto criado)
+
+-npx expo start ->w (as vezes da um erro, só sair do servidor e copiar e colar o que aparece em branco, depois só dar o comando denovo)
+
+
+*oque é variável de ambiente:
+Uma variável de ambiente é um "atalho" 
+para um valor que neste caso está disponível no ambiente de execução 
+(neste caso no sistema operacional inteiro).
+
+Na maioria dos casos, precisamos adicionar valores a essas variáveis 
+para que alguns programas consigam encontrar 
+o que precisam para executar corretamente.
+
+*expo é o simulador do aplicativo
