@@ -58,7 +58,7 @@ dentro de pages criar mais duas pastas: home e login e em cada criar dois arquiv
 
 
 
-*https://diverseui.com/
+*https://diverseui.com/ ->imagens - jogar em assets!
 
 *https://reactnative.dev/docs/shadow-props
 
