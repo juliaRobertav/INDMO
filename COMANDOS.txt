@@ -46,6 +46,8 @@ npx expo install react-native-gesture-handler  --> auxiliar pra passar de tela(a
 -yarn add ngrok@^4.3.3 --> para rodar no celular
 -npx expo start --tunel
  -yarn remove ngrok(caso instale errado)
+
+
 -criar arquivo routers.js (endereço das telas)
 
 -criar pasta chamada pages
