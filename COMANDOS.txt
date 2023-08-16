@@ -56,6 +56,10 @@ dentro de pages criar mais duas pastas: home e login e em cada criar dois arquiv
 -yarn add react-native-shadow-2 (sombra)
 -yarn add react-native-svg (erro)
 
+
+
+*https://diverseui.com/
+
 *https://reactnative.dev/docs/shadow-props
 
 
