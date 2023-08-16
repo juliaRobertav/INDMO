@@ -54,6 +54,7 @@ npx expo install react-native-gesture-handler  --> auxiliar pra passar de tela(a
 dentro de pages criar mais duas pastas: home e login e em cada criar dois arquivos: index.js e styles.js
 
 -yarn add react-native-shadow-2 (sombra)
+-yarn add react-native-svg (erro)
 
 *https://reactnative.dev/docs/shadow-props
 
