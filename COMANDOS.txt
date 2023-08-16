@@ -24,7 +24,7 @@ Ou pesquisar editar variaveis de ambiente no menu.
 *
 
 ->Documents:
--npx create-expo-app Projeto1 (criação do projeto)
+-npx create-expo-app NomeProjeto (criação do projeto)
 -cd NomeProjeto
 
 -yarn
