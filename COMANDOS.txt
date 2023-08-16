@@ -55,7 +55,7 @@ dentro de pages criar mais duas pastas: home e login e em cada criar dois arquiv
 
 
 
-
+*https://reactnative.dev/docs/shadow-props
 
 
 *programação pilha - ultimo que entra é o primeiro que sai (stack - cada camada da pilha)
