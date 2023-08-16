@@ -40,7 +40,7 @@ npx expo install react-native-screens react-native-safe-area-context
 
 -> depois navigator: https://reactnavigation.org/docs/stack-navigator/ (yarn)
 npm install @react-navigation/stack
-npx expo install react-native-gesture-handler
+npx expo install react-native-gesture-handler  --> auxiliar pra passar de tela(ajuda a ver no celular)
 
 -criar arquivo routers.js (endereço das telas)
 
