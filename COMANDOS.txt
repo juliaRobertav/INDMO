@@ -44,7 +44,7 @@ npx expo install react-native-gesture-handler  --> auxiliar pra passar de tela(a
 
 
 -yarn add ngrok@^4.3.3 --> para rodar no celular
--npx expo start --tunel
+-npx expo start --tunnel
  -yarn remove ngrok(caso instale errado)
 
 
