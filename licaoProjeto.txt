@@ -1,0 +1,6 @@
+ju@g.com
+123456
+
+
+
+()=>navigation.navigate('Tela1', {total:tt})
