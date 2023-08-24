@@ -1,6 +1,7 @@
+Projeto ReactNative 2023
+
+teste:
+
 ju@g.com
 123456
-
-
-
-()=>navigation.navigate('Tela1', {total:tt})
+b@gg.com
