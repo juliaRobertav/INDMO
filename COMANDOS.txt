@@ -63,6 +63,23 @@ dentro de pages criar mais duas pastas: home e login e em cada criar dois arquiv
 *https://reactnative.dev/docs/shadow-props
 
 
+
+-> Android Studio:
+
+Download
+New Project
+Primeira Opção
+Ícone Device Manager
+
+%appdata%
+Local
+Android
+Sdk
+emulator - cmd
+emulator -avd NomeProjeto do Device Manager
+
+
+
 *programação pilha - ultimo que entra é o primeiro que sai (stack - cada camada da pilha)
 
 *oque é variável de ambiente:
