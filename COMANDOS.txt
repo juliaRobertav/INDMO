@@ -87,6 +87,10 @@ emulator - cmd
 emulator -avd NomeProjeto do Device Manager
 
 
+-> Icons:
+
+https://oblador.github.io/react-native-vector-icons/
+
 
 *programação pilha - ultimo que entra é o primeiro que sai (stack - cada camada da pilha)
 
