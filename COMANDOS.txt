@@ -67,6 +67,9 @@ dentro de pages criar mais duas pastas: home e login e em cada criar dois arquiv
 -> Firebase:
 https://console.firebase.google.com/?hl=pt  (robertaju05)
 
+autentication:
+a@b.com
+123456
 
 
 -> Android Studio:
