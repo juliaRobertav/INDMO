@@ -21,7 +21,7 @@ Ou pesquisar editar variaveis de ambiente no menu.
 
 *-npm install -g expo-cli
 
-*
+
 
 ->Documents:
 -npx create-expo-app NomeProjeto (criação do projeto)
@@ -61,6 +61,11 @@ dentro de pages criar mais duas pastas: home e login e em cada criar dois arquiv
 *https://diverseui.com/ ->imagens - jogar em assets!
 
 *https://reactnative.dev/docs/shadow-props
+
+
+
+-> Firebase:
+https://console.firebase.google.com/?hl=pt  (robertaju05)
 
 
 
