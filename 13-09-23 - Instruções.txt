@@ -1,0 +1,14 @@
+Para quem quiser me acompanhar:
+1) Copie a pasta T:\2DS-TB\INDMO\13-09-23 para seu computador
+2) Entre na pasta (13-09-23) e dê o comando "yarn"
+Obs: conserte todas as ocorrências em amarelo ou vermelho
+3) Veifique se no PATH das Variáveis de Ambiente possui o 
+endereço do emulador: 
+C:\Users\seuCPF\AppData\Local\Android\Sdk\emulator
+Se não possuir, coloque-o.
+4) Abra o Prompt e execute: "emulator -avd NomeEmulador" e 
+deixe-o executando. Tem que abrir o emulador do celular.
+5) Volte no Prompt da pasta 13-09-23 e escolha "a" para 
+executar no Android.
+6) Caso dê tela azul escrito "Something webt wrong", clique na 
+seta de reload na própria tela.
