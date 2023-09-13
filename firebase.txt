@@ -1,0 +1,9 @@
+Firebase
+
+Storage
+Images
+colocar true
+
+Banco de dados - criação
+
+Firestore/Storage - permissão
