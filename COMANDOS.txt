@@ -91,6 +91,11 @@ endereço do emulador:
 C:\Users\seuCPF\AppData\Local\Android\Sdk\emulator
 
 
+
+*AXIOS - API
+
+yarn add axios
+
 -> Icons:
 
 https://oblador.github.io/react-native-vector-icons/
