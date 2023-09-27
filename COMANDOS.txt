@@ -86,6 +86,10 @@ Sdk
 emulator - cmd
 emulator -avd NomeProjeto do Device Manager
 
+Veifique se no PATH das Variáveis de Ambiente possui o 
+endereço do emulador: 
+C:\Users\seuCPF\AppData\Local\Android\Sdk\emulator
+
 
 -> Icons:
 
