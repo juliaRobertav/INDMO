@@ -1,7 +1,0 @@
-Projeto ReactNative 2023
-
-teste:
-
-ju@g.com
-123456
-b@gg.com
