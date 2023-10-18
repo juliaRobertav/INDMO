@@ -1,3 +1,6 @@
+[Link para GitBook caso queira ver melhor!](https://julinha.gitbook.io/indmo/)
+
+
 # Comandos
 
 Claro, vou criar um guia README com os principais comandos para o desenvolvimento de aplicativos React Native usando o Expo e um emulador. Lembre-se de que as versões e comandos podem mudar com o tempo, então verifique a documentação mais recente para obter informações atualizadas.
