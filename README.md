@@ -1,109 +1,109 @@
----
-description: Principais Comandos
----
-
 # Comandos
 
+Claro, vou criar um guia README com os principais comandos para o desenvolvimento de aplicativos React Native usando o Expo e um emulador. Lembre-se de que as versões e comandos podem mudar com o tempo, então verifique a documentação mais recente para obter informações atualizadas.
+
+## Guia de Comandos para Desenvolvimento React Native com Expo e Emulador
+
+Este guia fornecerá uma visão geral dos comandos mais comuns usados no desenvolvimento de aplicativos React Native com o Expo e um emulador. Certifique-se de ter o Node.js, npm (ou Yarn) instalados antes de começar.
+
+### Configuração Inicial
+
+#### 1. Instale o Expo-CLI (se ainda não o fez)
+
+```bash
+npm install -g expo-cli
+```
+
+#### 2. Crie um novo projeto Expo
+
+```bash
+expo init NomeDoSeuProjeto
+```
+
+#### 3. Navegue para o diretório do projeto
+
+```bash
+cd NomeDoSeuProjeto
+```
+
+### Desenvolvimento
+
+#### 4. Inicie o servidor de desenvolvimento
+
+```bash
+expo start
+```
+
+Isso abrirá uma página da web com um código QR. Você pode escanear o código QR com o aplicativo Expo Go no seu dispositivo ou pressionar "i" para abrir o aplicativo no iOS Simulator ou "a" para abrir o aplicativo no Android Emulator.
+
+#### 5. Executar em Emulador iOS (se você estiver no macOS)
+
+```bash
+expo start --ios
+```
+
+#### 6. Executar em Emulador Android
+
+```bash
+expo start --android
+```
+
+#### 7. Adicione dependências (exemplo)
+
+```bash
+expo install nome-da-dependencia
+```
+
+### Publicação
+
+#### 8. Crie uma versão de produção do seu aplicativo
+
+```bash
+expo build:android
+```
+
+ou
+
+```bash
+expo build:ios
+```
+
+#### 9. Faça o upload do seu aplicativo para a App Store ou Google Play
+
+Depois de criar uma versão de produção, siga as diretrizes da App Store ou Google Play para fazer o upload do seu aplicativo.
+
+### Comandos Úteis
+
+#### 10. Atualizar Expo-CLI
+
+```bash
+npm install -g expo-cli
+```
+
+#### 11. Atualizar dependências do projeto
+
+```bash
+expo upgrade
+```
+
+#### 12. Ejetar o projeto (para personalização avançada)
+
+```bash
+expo eject
+```
 
 
-#### Configurações Padrões:
-
-O React Native é um framework de desenvolvimento de aplicativos móveis que permite criar aplicativos nativos para iOS e Android usando JavaScript e React. Aqui está uma lista de comandos úteis para trabalhar com o React Native:
 
 
 
-1. **Configuração Inicial:**
-   * `npx react-native init MyApp`: Cria um novo projeto React Native chamado "MyApp".
-   * `cd MyApp`: Navega para o diretório do projeto.
-   * `npx react-native run-android` ou `npx react-native run-ios`: Inicia o aplicativo em um emulador ou dispositivo físico.
-2. **Desenvolvimento e Teste:**
-   * `npm start` ou `yarn start`: Inicia o servidor de desenvolvimento Metro.
-   * `npx react-native run-android` ou `npx react-native run-ios`: Inicia o aplicativo no emulador ou dispositivo físico.
-   * `npm test` ou `yarn test`: Executa testes no aplicativo.
-3. **Gerenciamento de Dependências:**
-   * `npm install packageName` ou `yarn add packageName`: Instala uma nova dependência no projeto.
-   * `npm uninstall packageName` ou `yarn remove packageName`: Remove uma dependência do projeto.
-4. **Plugins e Bibliotecas:**
-   * `npm install react-native-some-library` ou `yarn add react-native-some-library`: Instala uma biblioteca React Native.
-   * `react-native link`: Linka automaticamente bibliotecas nativas após a instalação.
-5. **Gestão de Emuladores:**
-   * `emulator -list-avds`: Lista os emuladores Android disponíveis.
-   * `emulator -avd <avd_name>`: Inicia um emulador Android específico.
-6. **Build e Publicação:**
-   * `cd android && ./gradlew bundleRelease` (Android) e `npx react-native bundle --platform ios --entry-file index.js --bundle-output ios/main.jsbundle --assets-dest ios` (iOS): Gere arquivos de bundle para produção.
-   * Siga a documentação oficial para publicar na App Store (iOS) ou Play Store (Android).
-7. **Limpeza de Cache:**
-   * `npm start -- --reset-cache`: Limpa o cache do Metro Bundler.
-   * `cd android && ./gradlew clean` (Android) e `npx react-native start --reset-cache` (iOS): Limpa caches específicos do projeto.
-8. **Depuração:**
-   * `console.log()`: Use para depuração. Os logs aparecem no console do Metro Bundler.
-   * `react-native log-android` e `react-native log-ios`: Mostra os logs específicos da plataforma.
-9. **Atualizações:**
-   * `npm outdated` ou `yarn outdated`: Verifica as dependências desatualizadas no projeto.
-   * `npm update` ou `yarn upgrade`: Atualiza as dependências para as versões mais recentes.
+### Referências
 
-Lembre-se de verificar a documentação oficial do React Native (https://reactnative.dev/).
+{% embed url="https://reactnative.dev/" %}
 
+{% embed url="https://expo.dev/" %}
 
+{% embed url="https://react-native.rocketseat.dev/" %}
 
-#### Configurações Expo:
+{% embed url="https://learn.microsoft.com/pt-br/windows/dev-environment/javascript/react-native-for-android" %}
 
-O Expo é uma estrutura que simplifica o desenvolvimento de aplicativos React Native e fornece uma variedade de ferramentas úteis para agilizar o processo. Abaixo estão alguns comandos comuns para usar o Expo:
-
-
-
-1. **Instalação do Expo:**
-   *   Para iniciar um novo projeto com o Expo, primeiro instale o CLI do Expo:
-
-       ```
-       npm install -g expo-cli
-       ```
-2. **Criação de um Novo Projeto Expo:**
-   *   Crie um novo projeto Expo com o comando:
-
-       ```
-       expo init MyApp
-       ```
-   * Escolha um modelo de projeto ou selecione "blank" para um projeto vazio.
-3. **Iniciando o Projeto:**
-   *   Navegue para o diretório do projeto:
-
-       ```
-       cd MyApp
-       ```
-   *   Inicie o servidor de desenvolvimento:
-
-       ```
-       expo start
-       ```
-   * Isso abrirá o Metro Bundler e exibirá um código QR no terminal.
-4. **Executando o Projeto em um Emulador ou Dispositivo:**
-   * Para executar o aplicativo em um emulador Android/iOS ou dispositivo físico, digitalize o código QR usando o aplicativo Expo Go ou use os seguintes comandos:
-     *   Para emulador Android:
-
-         ```
-         expo start --android
-         ```
-     *   Para emulador iOS:
-
-         ```
-         expo start --ios
-         ```
-     * Para dispositivo físico, certifique-se de que o aplicativo Expo Go esteja instalado e escaneie o código QR exibido no Metro Bundler.
-5. **Gerenciamento de Dependências:**
-   * Use `npm install packageName` ou `yarn add packageName` para instalar novas dependências no projeto.
-6. **Plugins e Bibliotecas:**
-   *   Para adicionar bibliotecas Expo compatíveis, use:
-
-       ```
-       expo install library-name
-       ```
-   * Isso garantirá que a biblioteca seja configurada corretamente com o Expo.
-7. **Build e Publicação:**
-   * Siga a documentação oficial do Expo para obter informações sobre como construir e publicar seu aplicativo Expo para lojas de aplicativos.
-8. **Depuração:**
-   * Use `console.log()` para depuração. Os logs aparecem no console do Metro Bundler.
-9. **Atualizações:**
-   * Use `expo upgrade` para verificar e aplicar atualizações do Expo CLI e do projeto.
-
-Lembre-se de que o Expo oferece muitos recursos adicionais, como acesso a APIs nativas e bibliotecas pré-configuradas. Verifique a documentação oficial do Expo (https://docs.expo.dev/)&#x20;
+{% embed url="https://www.alura.com.br/artigos/configurando-o-ambiente-react-native?utm_term=&utm_campaign=%5BSearch%5D+%5BPerformance%5D+-+Dynamic+Search+Ads+-+Artigos+e+Conte%C3%BAdos&utm_source=adwords&utm_medium=ppc&hsa_acc=7964138385&hsa_cam=11384329873&hsa_grp=111087461203&hsa_ad=645853715422&hsa_src=g&hsa_tgt=aud-539280195004:dsa-843358956400&hsa_kw=&hsa_mt=&hsa_net=adwords&hsa_ver=3&gad_source=1&gclid=Cj0KCQjwhL6pBhDjARIsAGx8D5811tXWQV3M-6yYv-y1DYbJun0czd7Bl5qSMhN9bAZX5CfpieMAbcgaAj0PEALw_wcB" %}
