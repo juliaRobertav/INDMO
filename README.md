@@ -1,37 +1,34 @@
-[Link para GitBook caso queira ver melhor!](https://julinha.gitbook.io/indmo/)
-
-
 # Comandos
 
-Claro, vou criar um guia README com os principais comandos para o desenvolvimento de aplicativos React Native usando o Expo e um emulador. Lembre-se de que as versões e comandos podem mudar com o tempo, então verifique a documentação mais recente para obter informações atualizadas.
+[Link para GitBook caso queira ver melhor!](https://julinha.gitbook.io/indmo/)
 
-## Guia de Comandos para Desenvolvimento React Native com Expo e Emulador
+### Guia de Comandos para Desenvolvimento React Native com Expo e Emulador
 
 Este guia fornecerá uma visão geral dos comandos mais comuns usados no desenvolvimento de aplicativos React Native com o Expo e um emulador. Certifique-se de ter o Node.js, npm (ou Yarn) instalados antes de começar.
 
-### Configuração Inicial
+#### Configuração Inicial
 
-#### 1. Instale o Expo-CLI (se ainda não o fez)
+**1. Instale o Expo-CLI (se ainda não o fez)**
 
 ```bash
 npm install -g expo-cli
 ```
 
-#### 2. Crie um novo projeto Expo
+**2. Crie um novo projeto Expo**
 
 ```bash
 expo init NomeDoSeuProjeto
 ```
 
-#### 3. Navegue para o diretório do projeto
+**3. Navegue para o diretório do projeto**
 
 ```bash
 cd NomeDoSeuProjeto
 ```
 
-### Desenvolvimento
+#### Desenvolvimento
 
-#### 4. Inicie o servidor de desenvolvimento
+**4. Inicie o servidor de desenvolvimento**
 
 ```bash
 expo start
@@ -39,27 +36,27 @@ expo start
 
 Isso abrirá uma página da web com um código QR. Você pode escanear o código QR com o aplicativo Expo Go no seu dispositivo ou pressionar "i" para abrir o aplicativo no iOS Simulator ou "a" para abrir o aplicativo no Android Emulator.
 
-#### 5. Executar em Emulador iOS (se você estiver no macOS)
+**5. Executar em Emulador iOS (se você estiver no macOS)**
 
 ```bash
 expo start --ios
 ```
 
-#### 6. Executar em Emulador Android
+**6. Executar em Emulador Android**
 
 ```bash
 expo start --android
 ```
 
-#### 7. Adicione dependências (exemplo)
+**7. Adicione dependências (exemplo)**
 
 ```bash
 expo install nome-da-dependencia
 ```
 
-### Publicação
+#### Publicação
 
-#### 8. Crie uma versão de produção do seu aplicativo
+**8. Crie uma versão de produção do seu aplicativo**
 
 ```bash
 expo build:android
@@ -71,35 +68,31 @@ ou
 expo build:ios
 ```
 
-#### 9. Faça o upload do seu aplicativo para a App Store ou Google Play
+**9. Faça o upload do seu aplicativo para a App Store ou Google Play**
 
 Depois de criar uma versão de produção, siga as diretrizes da App Store ou Google Play para fazer o upload do seu aplicativo.
 
-### Comandos Úteis
+#### Comandos Úteis
 
-#### 10. Atualizar Expo-CLI
+**10. Atualizar Expo-CLI**
 
 ```bash
 npm install -g expo-cli
 ```
 
-#### 11. Atualizar dependências do projeto
+**11. Atualizar dependências do projeto**
 
 ```bash
 expo upgrade
 ```
 
-#### 12. Ejetar o projeto (para personalização avançada)
+**12. Ejetar o projeto (para personalização avançada)**
 
 ```bash
 expo eject
 ```
 
-
-
-
-
-### Referências
+#### Referências
 
 {% embed url="https://reactnative.dev/" %}
 
