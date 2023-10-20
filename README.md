@@ -1,7 +1,5 @@
 # Comandos
 
-[Link para GitBook caso queira ver melhor!](https://julinha.gitbook.io/indmo/)
-
 ### Guia de Comandos para Desenvolvimento React Native com Expo e Emulador
 
 Este guia fornecerá uma visão geral dos comandos mais comuns usados no desenvolvimento de aplicativos React Native com o Expo e um emulador. Certifique-se de ter o Node.js, npm (ou Yarn) instalados antes de começar.
